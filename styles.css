@@ -1,0 +1,113 @@
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav a {
+  font-family: arial, sans-serif;
+  color: #222;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 8px;
+}
+
+#account {
+  border-radius: 50%;
+  border-style: solid;
+  border-image: #f0766b;
+  padding: 2px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 140px;
+  margin: 90px;
+}
+
+form {
+  padding: 15px;
+}
+
+#search {
+  width: 600px;
+  height: 40px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  padding: 5px;
+}
+
+#click {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#gsearch,
+#lucky {
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  padding: 17px;
+  margin: 10px;
+  color: 3c4043;
+
+  border-style: none;
+}
+
+#google_phone {
+  font-family: arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: small;
+  color: #1a0dab;
+}
+a {
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+#carbon {
+  color: #70757a;
+  font-size: 14px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#leaf {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+footer nav a {
+  color: #70757a;
+}
